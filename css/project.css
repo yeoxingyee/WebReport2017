@@ -1,0 +1,142 @@
+/* Project nav */
+
+
+#project-nav{
+	background: #f5f5f5;
+	width: 15%;
+	border: 1px rgba(100,100,100,0.50) solid;
+	border-radius: 5%;
+}
+
+#project-nav h3{
+	margin: auto;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 5%;
+}
+
+.magic-orig{
+	position: absolute;
+	top:40%;
+	right:7%;
+}
+.magic-fixed{
+	position: fixed;
+	top:20%;
+	right:7%;
+}
+
+#project-nav ol{
+	padding: 5px;
+	list-style-type: upper-roman;
+	margin: 5% 15%;
+}
+#project-nav ol li{
+	padding: 5px;
+}
+#project-nav ol li a{
+	transition-duration: 0.3s;
+	color: #0366d6;
+}
+#project-nav ol li a:hover{
+	text-decoration: underline;
+	color: #800080;
+	transition-duration: 0.3s;
+}
+
+/* Main */
+body{
+	background: black;
+	font-family: 'Lora' serif;
+	overflow-x: hidden;
+}
+h1{
+	margin-left: -8px;
+}
+h2{
+	text-align: center;
+}
+h3{
+	font-weight: bold;
+}
+h4{
+	color: rgb(220,220,220);
+	font-size: 20px;
+}
+.section{
+	padding: 3% 5%;
+	width: 80%;
+	margin: auto;
+}
+.headline {
+  line-height: 1.5em;
+  position: relative;
+}
+.headline:after {
+  content:' ';
+  position: absolute;
+  top:100%;
+  left:50%;
+  width: 100px;
+  border:2px solid #d0d0d0;
+  border-radius:4px;
+  box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+  transform:translateX(-50%);
+}
+
+div{
+	padding-bottom: 5px;
+}
+figure{
+	text-align: center;
+}
+p{
+	font-size: 20px;
+	text-align: center;
+}
+.main-container{
+	background: white;
+	margin: 0;
+	width: 100%;
+	padding: 0 0;
+	border-radius: 5px;
+}
+.row{
+	padding: 5px;
+}
+
+/* Introduction */
+#pastres{
+	width: 100%;
+	background: url("../img/IMG_4776.JPG");
+	background-size:cover;
+	background-attachment: fixed;
+}
+
+/* Solution Design */
+#sm{
+	width: 100% !important;
+	background: url("../img/IMG_4776.JPG");
+	background-size:cover;
+	background-attachment: fixed;
+}
+#sm > img{
+	height: auto;
+	margin: auto 0 auto auto;
+}
+.fluffy-card-slim{
+	background: rgba(0,0,0,0.5);
+  color: white;
+  text-align: center;
+  padding: 3% 1%;
+	border-bottom: 1px solid black;
+}
+
+/* Credits */
+i{
+	font-style: italic !important;
+}
+.ref p{
+	text-align: left;
+}
